@@ -39,4 +39,4 @@ Some controls are still UI placeholders, as marked by `TODO` comments in the Jav
 
 
 ## Themes
-The Appearance panel includes 17 selectable themes: GitHub Dark, ANSI Dark, Nord, Gruvbox Dark, Material Dark, Catppuccin Mocha, Solarized Cream, Dracula, Tokyo Night, Monokai, One Dark, Ayu Dark, Ayu Mirage, Kanagawa, Everforest Dark, Light Basic, and Solarized Light. Gruvbox Dark is based on the supplied full-dashboard reference; Catppuccin Mocha is an estimated reconstruction from its preview palette. The selected theme is saved in the browser's local storage on that device. Theme palettes are defined with CSS custom properties in `src/css/styles.css`; selection logic is in `src/js/features/appearance.js`.
+The Appearance panel includes 23 selectable themes (15 dark and 8 light). The four swatches for each supplied theme are preserved exactly; supporting surface, border, text, and graph colours are derived to maintain contrast. The selected theme is saved in the browser's local storage on that device. Theme palettes are defined with CSS custom properties in `src/css/styles.css`; selection logic is in `src/js/features/appearance.js`.

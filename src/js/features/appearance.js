@@ -4,7 +4,7 @@
   const km = document.getElementById('keys-main'), kn = document.getElementById('keys-new'), ka = document.getElementById('keys-app');
   const sys = document.querySelector('nav .it[data-k="system"]');
   const themeKey = 'initHabitsTheme';
-  const themes = new Set(['github-dark', 'ansi-dark', 'nord', 'gruvbox-dark', 'material-dark', 'catppuccin-mocha', 'solarized-cream', 'dracula', 'tokyo-night', 'monokai', 'one-dark', 'ayu-dark', 'ayu-mirage', 'kanagawa', 'everforest-dark', 'light-basic', 'solarized-light']);
+  const themes = new Set(['github-dark', 'ansi-dark', 'nord', 'gruvbox-dark', 'material-dark', 'catppuccin-mocha', 'solarized-cream', 'dracula', 'tokyo-night', 'monokai', 'one-dark', 'ayu-dark', 'ayu-mirage', 'kanagawa', 'everforest-dark', 'light-basic', 'solarized-light', 'github-light', 'rose-pine-dawn', 'one-light', 'ayu-light', 'everforest-light', 'catppuccin-latte']);
   const themeButtons = [...document.querySelectorAll('[data-theme-choice]')];
 
   const applyTheme = (name, save = true) => {
