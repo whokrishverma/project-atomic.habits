@@ -11,6 +11,7 @@ Open `index.html` in a browser. If browser restrictions affect local assets or A
 ```text
 .
 ├── index.html
+├── favicon.svg
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── README.md

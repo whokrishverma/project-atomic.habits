@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>init.Habits [beta]</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
@@ -112,7 +113,7 @@
         <div class="sec" style="margin-top:17px"><svg class="i" viewBox="0 0 16 16"><path d="M11.500 1.500l3 3-1.200 1.200-3-3zM9.700 3.300l3 3L6.500 12.500 3 13l.5-3.500z"/></svg>theme</div>
         <div class="ind theme-picker">
           <div class="theme-group"><div class="note">// dark themes</div>
-            <div class="theme-options">
+            <div class="theme-options" id="dark-theme-options">
               <button type="button" class="theme-option" data-theme-choice="github-dark" aria-pressed="true"><span class="swatches"><i style="background:#0c1015"></i><i style="background:#52c98c"></i><i style="background:#6ea8fe"></i><i style="background:#e8b83a"></i></span>github dark <span class="theme-check">*</span></button>
               <button type="button" class="theme-option" data-theme-choice="ansi-dark" aria-pressed="false"><span class="swatches"><i style="background:#000"></i><i style="background:#39e639"></i><i style="background:#4f91ff"></i><i style="background:#e8d94a"></i></span>ansi dark <span class="theme-check"></span></button>
               <button type="button" class="theme-option" data-theme-choice="nord" aria-pressed="false"><span class="swatches"><i style="background:#2e3440"></i><i style="background:#a3be8c"></i><i style="background:#88c0d0"></i><i style="background:#ebcb8b"></i></span>nord <span class="theme-check"></span></button>
@@ -129,9 +130,10 @@
 <button type="button" class="theme-option" data-theme-choice="kanagawa" aria-pressed="false"><span class="swatches"><i style="background:#1F1F27"></i><i style="background:#9FBA75"></i><i style="background:#9180B4"></i><i style="background:#D53B31"></i></span>kanagawa <span class="theme-check"></span></button>
 <button type="button" class="theme-option" data-theme-choice="everforest-dark" aria-pressed="false"><span class="swatches"><i style="background:#2F353A"></i><i style="background:#ACBF87"></i><i style="background:#8CB9B3"></i><i style="background:#D6BD87"></i></span>everforest dark <span class="theme-check"></span></button>
             </div>
+            <button type="button" class="theme-list-toggle" data-theme-toggle="dark-theme-options" aria-controls="dark-theme-options" aria-expanded="false">[show more]</button>
           </div>
           <div class="theme-group"><div class="note">// light themes</div>
-            <div class="theme-options">
+            <div class="theme-options" id="light-theme-options">
 <button type="button" class="theme-option" data-theme-choice="light-basic" aria-pressed="false"><span class="swatches"><i style="background:#FFFFFF;border:1px solid var(--line)"></i><i style="background:#377D21"></i><i style="background:#0000C4"></i><i style="background:#757522"></i></span>light basic <span class="theme-check"></span></button>
 <button type="button" class="theme-option" data-theme-choice="solarized-light" aria-pressed="false"><span class="swatches"><i style="background:#FCF6E5;border:1px solid var(--line)"></i><i style="background:#89982E"></i><i style="background:#4689CC"></i><i style="background:#AE8B2D"></i></span>solarized light <span class="theme-check"></span></button>
 <button type="button" class="theme-option" data-theme-choice="github-light" aria-pressed="false"><span class="swatches"><i style="background:#FFFFFF;border:1px solid var(--line)"></i><i style="background:#3D7D3F"></i><i style="background:#2E67D3"></i><i style="background:#936921"></i></span>github light <span class="theme-check"></span></button>
@@ -141,6 +143,7 @@
 <button type="button" class="theme-option" data-theme-choice="everforest-light" aria-pressed="false"><span class="swatches"><i style="background:#FCF6E5;border:1px solid var(--line)"></i><i style="background:#91A031"></i><i style="background:#5392C1"></i><i style="background:#D6A337"></i></span>everforest light <span class="theme-check"></span></button>
 <button type="button" class="theme-option" data-theme-choice="catppuccin-latte" aria-pressed="false"><span class="swatches"><i style="background:#EFF1F5;border:1px solid var(--line)"></i><i style="background:#5B9E3E"></i><i style="background:#7E3EE6"></i><i style="background:#D4923B"></i></span>catppuccin latte <span class="theme-check"></span></button>
             </div>
+            <button type="button" class="theme-list-toggle" data-theme-toggle="light-theme-options" aria-controls="light-theme-options" aria-expanded="false">[show more]</button>
           </div>
           <div class="note theme-saved" id="theme-saved" aria-live="polite">// theme saved on this device</div>
         </div>
