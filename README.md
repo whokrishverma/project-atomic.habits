@@ -23,6 +23,8 @@ Open `index.html` in a browser. If browser restrictions affect local assets or A
         └── features
             ├── appearance.js
             ├── habit-create.js
+            ├── habits-library.js
+            ├── habits-overview.js
             ├── help-feedback.js
             ├── navigation.js
             └── profile.js
@@ -41,3 +43,7 @@ Some controls are still UI placeholders, as marked by `TODO` comments in the Jav
 
 ## Themes
 The Appearance panel shows the current theme on a single `$ themes` row; clicking it (or system → themes in the navbar) opens a separate Themes panel in the right column (`[close]` button; `esc` steps back) with a sticky preview and lists 23 selectable themes (15 dark and 8 light), five per group until `[show more]` is clicked. The four swatches for each supplied theme are preserved exactly; supporting surface, border, text, and graph colours are derived to maintain contrast. The selected theme is saved in the browser's local storage on that device. Theme palettes are defined with CSS custom properties in `src/css/styles.css`; selection logic is in `src/js/features/appearance.js`.
+
+
+## Habits menu panels
+`habits → all habits` opens the `$ overview` panel (`habits-overview.js`) and `habits → library` opens `$ habits library` (`habits-library.js`) in the right column. Library `[add]` pre-fills the `$ habit --new` panel; routine packs and the `$ habit --archive` command are placeholders (TODO). Overview habits and library entries are static sample data until persistence exists.
