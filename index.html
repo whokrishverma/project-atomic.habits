@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>init.Habits [beta]</title>
+<link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+<div class="app">
+  <nav>
+    <span class="brand"><span>[<i>h</i>]</span><b>init.Habits</b><span>[beta]</span></span>
+    <div class="nv"><a class="it" href="#" data-k="habits">habits</a><div class="dd" role="menu"><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 2.500h10a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1zM3.500 6v6.500h9V6zM5 8h1.200v1.200H5zm2.400 0h1.200v1.200H7.400zM9.800 8H11v1.200H9.800zM5 10.300h1.200v1.200H5zm2.400 0h1.200v1.200H7.400z"/></svg>all habits</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path d="M2 2h5v5H2zM9 2h5v5H9zM2 9h5v5H2zM9 9h5v5H9z"/></svg>library</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 2.500h12v3H2zM3 6.500h10V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zM6.500 8.500v1.200h3V8.500z"/></svg>habit archive</a></div></div><div class="nv"><a class="it" href="#" data-k="stats">stats</a><div class="dd" role="menu"><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 3.500C4.500 3.500 2 6.500 1 8c1 1.500 3.500 4.500 7 4.500S13 9.500 15 8c-1-1.500-3.500-4.500-7-4.500zM8 5.800a2.200 2.200 0 1 1 0 4.400 2.200 2.200 0 0 1 0-4.400z"/></svg>overview</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 2.500h10a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1zM3.500 6v6.500h9V6zM5 8h1.200v1.200H5zm2.400 0h1.200v1.200H7.400zM9.800 8H11v1.200H9.800zM5 10.300h1.200v1.200H5zm2.400 0h1.200v1.200H7.400z"/></svg>month</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3 2.500h10a1 1 0 0 1 1 1v6.500a3 3 0 0 0-5 3.500H3a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1zM3.500 6v6.500h5.200A3 3 0 0 1 12.500 10V6zM11.500 11.500a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>week</a></div></div><div class="nv"><a class="it" href="#" data-k="profile">profile</a><div class="dd" role="menu"><a href="#" role="menuitem" data-open="account"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.500a6.500 6.500 0 1 1 0 13 6.500 6.500 0 0 1 0-13zm0 2.200a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM4.800 11.600A4.500 4.500 0 0 0 8 13a4.500 4.500 0 0 0 3.200-1.400C10.800 10.600 9.500 10 8 10s-2.800.6-3.200 1.600z"/></svg>account</a><a href="#" role="menuitem" data-open="levels"><svg class="mi" viewBox="0 0 16 16"><path d="M2 9h3v5H2zM6.500 5h3v9h-3zM11 2h3v12h-3z"/></svg>levels</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path d="M4 2h8v3.500a4 4 0 0 1-3 3.900V12h2.500v1.500h-7V12H7V9.400a4 4 0 0 1-3-3.900zM2 3h2v2.500A2 2 0 0 1 2 3.500zM12 3h2v.5a2 2 0 0 1-2 2z"/></svg>achievements</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1l1.600 1.300 2-.2.800 1.900 1.800 1-.4 2 1 1.700-1.200 1.600.1 2-1.900.8L9.600 15 8 13.900 6.400 15l-1.300-1.600-1.900-.8.100-2L2 9l1-1.700-.4-2 1.800-1 .8-1.900 2 .2zM7.200 10.600l3.800-3.800-.9-.9-2.900 2.900-1.300-1.300-.9.900z"/></svg>pro</a></div></div><div class="nv"><a class="it" href="#" data-k="system">system</a><div class="dd" role="menu"><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7 1.500h2l.4 1.800 1.200.5 1.600-1 1.400 1.400-1 1.600.5 1.200 1.800.4v2l-1.800.4-.5 1.200 1 1.600-1.400 1.400-1.600-1-1.200.5-.4 1.800H7l-.4-1.800-1.200-.5-1.600 1-1.400-1.400 1-1.600-.5-1.200L1.100 9V7l1.800-.4.5-1.200-1-1.600 1.400-1.400 1.600 1 1.200-.5zM8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/></svg>settings</a><a href="#" role="menuitem" data-open="appearance"><svg class="mi" viewBox="0 0 16 16"><path d="M11.500 1.500l3 3-1.200 1.200-3-3zM9.700 3.300l3 3L6.500 12.500 3 13l.5-3.500z"/></svg>appearance</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.500a6.500 6.500 0 1 0 0 13c1.200 0 1.800-.9 1.300-1.900-.5-1 .1-2.100 1.200-2.100h1.300A2.700 2.700 0 0 0 14.500 7.800 6.500 6.500 0 0 0 8 1.500zM4.800 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm2.200-2.500a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3.200 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>themes</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path d="M8 1.500a4.500 4.500 0 0 0-4.500 4.500v3L2 11.500V12.500h12v-1L12.500 9V6A4.500 4.500 0 0 0 8 1.500zM6.300 13.500a1.800 1.800 0 0 0 3.400 0z"/></svg>notifications</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.500a6.500 6.500 0 1 1 0 13 6.500 6.500 0 0 1 0-13zM4.700 6.600A3.500 3.500 0 0 1 11 5.800L9.700 7H12V4.700l-.8.800A5 5 0 0 0 3.300 7zM11.300 9.400A3.500 3.500 0 0 1 5 10.200L6.300 9H4v2.300l.8-.8A5 5 0 0 0 12.700 9z"/></svg>sync & data</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 2.500h12a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H9.500v1.500H11V14H5v-1.500h1.500V11.500H2a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1zM2.500 4v6h11V4z"/></svg>screensaver</a><a href="#" role="menuitem"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 1.500h5a4 4 0 0 0 4.500 4V13a1.500 1.500 0 0 1-1.500 1.500H4A1.500 1.500 0 0 1 2.500 13V3A1.500 1.500 0 0 1 4 1.500zM3.800 3.500v8.500h7.900V6A4 4 0 0 1 8.600 3.500z"/><circle cx="12" cy="3.500" r="1.800"/></svg>get mobile app</a></div></div><div class="nv"><a class="it" href="#" data-k="help">help</a><div class="dd" role="menu"><a href="#" role="menuitem" data-open="help"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.500a6.500 6.500 0 1 1 0 13 6.500 6.500 0 0 1 0-13zM7.200 11.500h1.600v-1.600H7.200zM6 6.300h1.500c0-.5.300-.9.800-.9s.8.3.8.7c0 .8-1.700 1-1.700 2.600h1.500c0-.9 1.700-1.100 1.700-2.700 0-1.300-1-2.200-2.300-2.200S6 5 6 6.300z"/></svg>help</a><a href="#" role="menuitem" data-open="feedback"><svg class="mi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 3h12a1 1 0 0 1 1 1v.5L8 9 1 4.500V4a1 1 0 0 1 1-1zM1 6.200l7 4.500 7-4.500V12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"/></svg>feedback</a></div></div>
+  </nav>
+
+  <div class="cols">
+    <div class="stack">
+      <section class="panel"><div class="t">$ status</div>
+        <div class="st">
+          <div class="row"><svg class="i g" viewBox="0 0 16 16"><rect x="2" y="3" width="12" height="11" rx="1"/><path d="M2 6.5h12M5 2v2M11 2v2M5 9h1M8 9h1M11 9h1M5 11.5h1M8 11.5h1"/></svg>Monday, November 16, 2026</div>
+          <div class="row g"><svg class="i f" viewBox="0 0 16 16"><path d="M8 1c1 3 4 4.500 4 8.500A4 4 0 0 1 4 9.500C4 8 5 7 5.500 6 6.500 7 7 7 7 7 7.500 5 7 3 8 1z"/></svg><span>0 days</span><span class="dim">∗</span><svg class="i f c" viewBox="0 0 16 16"><path d="M8 1l6 2v5c0 3.500-2.500 5.500-6 7-3.500-1.500-6-3.500-6-7V3z"/></svg><span class="c">0</span></div>
+          <div class="bar"><div class="track"></div><b>0%</b><span class="dim">[0/1]</span></div>
+          <div class="goal">// goal: 60%</div>
+          <div class="level">level: <span class="g">1</span> <span class="dim">[30xp to next]</span></div>
+        </div>
+      </section>
+
+      <section class="panel" style="padding-bottom:14px"><div class="t">$ calendar</div>
+        <div class="cal-h"><a href="#">&lt;</a><b>november 2026</b><a href="#">&gt;</a></div>
+        <div class="grid7" id="cal"></div>
+      </section>
+
+      <section class="panel" style="padding-bottom:0"><div class="t">$ contributions</div>
+        <div class="contrib">
+          <div class="months"><span style="left:31px">jul</span><span style="left:80px">aug</span><span style="left:132px">sep</span><span style="left:174px">oct</span><span style="left:216px">nov</span></div>
+          <div class="heat"><div class="dl"><span>m</span><span></span><span>w</span><span></span><span>f</span><span></span><span>s</span></div><div class="cells" id="cells"></div></div>
+          <div class="sb"></div>
+          <div class="leg">// less <i style="background:#1c2128"></i><i style="background:#1f3b2f"></i><i style="background:#2d5a45"></i><i style="background:#3f7d5f"></i><i style="background:#52a67d"></i><i style="background:#66c795"></i><span>more</span></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel habits"><div class="t">$ habits</div>
+      <div class="prompt"><span class="u">kv</span><span class="s">@</span><span class="h">init.Habits</span> <span class="s">$</span> daily</div>
+      <div class="cm">// the irony of tracking habits: it's a habit you have to build first.</div>
+      <div class="habit"><span class="bx">[ ]</span><svg class="i" viewBox="0 0 16 16" style="margin-right:6px"><path d="M2 14h12M3 14v-3h10v3M4 11V8h8v3M8 8V5M8 5c-1-1 0-2 0-3 1 1 1 2 0 3z"/></svg>no sugar<span class="fl"><svg class="i f" viewBox="0 0 16 16"><path d="M8 1c1 3 4 4.500 4 8.500A4 4 0 0 1 4 9.500C4 8 5 7 5.500 6 6.500 7 7 7 7 7 7.500 5 7 3 8 1z"/></svg>0</span></div>
+
+      <div class="sug-h">$ suggestions</div>
+      <div class="cm sug-c">// click [add] to use any. find more in $ profile → habits library.</div>
+      <div class="list" id="sug"></div>
+      <button class="dismiss">[dismiss]</button>
+
+      <div class="foot"><button class="b h" id="addh" type="button">+ habit</button><span class="b r">+ routine</span><span class="ro">[reorder]</span></div>
+    </section>
+    <section class="panel newp" id="newp" aria-hidden="true"><div class="t">$ habit --new</div>
+      <div class="scroll">
+        <div class="hd"><button id="cancel" type="button">[cancel]</button><button id="save" type="button" class="sv">[save]</button></div>
+
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><path d="M3 13l1-3 8-8 2 2-8 8z M10 4l2 2"/></svg>name</div>
+        <div class="ind">
+          <div class="fld"><span class="star"><svg viewBox="0 0 16 16"><path d="M8 1.500l2 4.200 4.500.6-3.300 3.100.9 4.500L8 11.600l-4.100 2.300.9-4.500L1.500 6.300 6 5.700z"/></svg></span><input id="hn" maxlength="50" placeholder="e.g. drink water"><span class="n" id="c1">0/50</span></div>
+          <div class="fld"><input id="hc" maxlength="30" placeholder="comment (optional)" style="margin-left:0"><span class="n" id="c2">0/30</span></div>
+          <div class="note">// shown below habit name on habits screen</div>
+        </div>
+
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><path d="M8 4.500V8l2 1.500"/></svg>schedule</div>
+        <div class="ind">
+          <div class="opts" data-g><span data-v class="on">[daily]</span><span data-v>[weekly]</span></div>
+          <div class="opts" data-g style="margin-top:17px"><span data-v class="on">[every day]</span><span data-v>[days]</span><span data-v>[interval]</span><span data-v>[monthly]</span></div>
+          <div class="tg"><span>start date</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div>
+          <div class="tg"><span>end date</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div>
+        </div>
+
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><path d="M2 4h12M2 8h12M2 12h12"/><circle cx="5" cy="4" r="1.200"/><circle cx="10" cy="8" r="1.200"/><circle cx="6" cy="12" r="1.200"/></svg>tracking</div>
+        <div class="ind">
+          <div class="opts" data-g><span data-v class="on">[checkbox]</span><span data-v>[count]</span><span data-v>[number]</span><span data-v style="color:#4a5159">[time]</span><span data-v class="pro" style="margin-left:-4px">[pro]</span></div>
+          <div class="note" style="margin-top:9px">// tap to mark done</div>
+        </div>
+
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><circle cx="8" cy="8" r="2.200"/><path d="M8 1.500v2M8 12.500v2M1.500 8h2M12.500 8h2M3.400 3.400l1.400 1.400M11.200 11.200l1.400 1.400M3.400 12.600l1.400-1.400M11.200 4.800l1.400-1.400"/></svg>options</div>
+        <div class="ind">
+          <div class="tg"><span>weight</span><span class="wt"><span>[&lt;]</span><b>normal</b><span>[&gt;]</span></span></div>
+          <div class="note" style="margin-top:6px">// contributes 1x to daily goal [default]</div>
+          <div class="tg" style="margin-top:17px"><span>track streaks</span><span class="opts" data-g><span data-v>[off]</span><span data-v class="on">[on]</span></span></div>
+          <div class="note" style="margin-top:6px">// keep a streak counter for this habit</div>
+          <div class="tg" style="margin-top:17px"><span>record time</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div>
+          <div class="note" style="margin-top:6px">// show when you completed the habit</div>
+        </div>
+
+        <div class="sec" style="margin-top:21px"><svg class="i" viewBox="0 0 16 16"><path d="M4 11V7a4 4 0 0 1 8 0v4l1.500 2h-11zM7 14h2"/></svg>reminder</div>
+        <div class="ind">
+          <div class="tg" style="margin-top:7px"><span>remind me</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div>
+          <div class="note" style="margin-top:6px">// syncs to your phone; this browser can deliver it too — see $ notifications</div>
+        </div>
+
+        <div class="sec" style="margin-top:20px"><svg class="i" viewBox="0 0 16 16"><path d="M8 2a6 6 0 1 0 0 12c1 0 1.500-.8 1-1.600-.5-.9 0-1.900 1-1.900h1.500A2.500 2.500 0 0 0 14 8 6 6 0 0 0 8 2z"/><circle cx="5" cy="7" r=".6"/><circle cx="8" cy="5" r=".6"/><circle cx="11" cy="7" r=".6"/></svg>color</div>
+        <div class="ind" style="padding-bottom:14px">
+          <div class="tg" style="margin-top:7px"><span>habit color</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div>
+        </div>
+
+        <div class="sec" style="margin-top:20px"><svg class="i" viewBox="0 0 16 16"><path d="M1.500 4.500a1 1 0 0 1 1-1h3.200l1.500 1.800h6.300a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z M1.500 6.800h13"/></svg>routine</div>
+        <div class="ind" style="padding-bottom:14px">
+          <div class="tg" style="margin-top:7px"><span>add to routine</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div>
+        </div>
+      </div>
+    </section>
+    <section class="panel apnl" id="apnl" aria-hidden="true"><div class="t">$ appearance</div><button class="x" id="apclose" type="button">[close]</button>
+      <div class="scroll">
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><circle cx="8" cy="5" r="2.800"/><path d="M2.500 14c.5-3 2.800-4.500 5.500-4.500s5 1.500 5.500 4.500" fill="none"/></svg>identity</div>
+        <div class="ind"><div class="rr" style="margin-top:6px"><span class="un"><span>username</span><input value="kv" maxlength="15" id="un"><span class="c" id="unc">2/15</span><span class="c" style="color:#565c65">[save]</span></span></div></div>
+
+        <div class="sec" style="margin-top:17px"><svg class="i" viewBox="0 0 16 16"><path d="M11.500 1.500l3 3-1.200 1.200-3-3zM9.700 3.300l3 3L6.500 12.500 3 13l.5-3.500z"/></svg>theme</div>
+        <div class="ind theme-picker">
+          <div class="theme-group"><div class="note">// dark themes</div>
+            <div class="theme-options">
+              <button type="button" class="theme-option" data-theme-choice="github-dark" aria-pressed="true"><span class="swatches"><i style="background:#0c1015"></i><i style="background:#52c98c"></i><i style="background:#6ea8fe"></i><i style="background:#e8b83a"></i></span>github dark <span class="theme-check">*</span></button>
+              <button type="button" class="theme-option" data-theme-choice="ansi-dark" aria-pressed="false"><span class="swatches"><i style="background:#000"></i><i style="background:#39e639"></i><i style="background:#4f91ff"></i><i style="background:#e8d94a"></i></span>ansi dark <span class="theme-check"></span></button>
+              <button type="button" class="theme-option" data-theme-choice="nord" aria-pressed="false"><span class="swatches"><i style="background:#2e3440"></i><i style="background:#a3be8c"></i><i style="background:#88c0d0"></i><i style="background:#ebcb8b"></i></span>nord <span class="theme-check"></span></button>
+              <button type="button" class="theme-option" data-theme-choice="material-dark" aria-pressed="false"><span class="swatches"><i style="background:#263238"></i><i style="background:#c3e88d"></i><i style="background:#82aaff"></i><i style="background:#ffcb6b"></i></span>material dark <span class="theme-check"></span></button>
+            </div>
+          </div>
+          <div class="theme-group"><div class="note">// light themes</div>
+            <div class="theme-options">
+              <button type="button" class="theme-option" data-theme-choice="light-basic" aria-pressed="false"><span class="swatches"><i style="background:#fff;border:1px solid #bbb"></i><i style="background:#078b18"></i><i style="background:#2020e8"></i><i style="background:#858000"></i></span>light basic <span class="theme-check"></span></button>
+              <button type="button" class="theme-option" data-theme-choice="solarized-light" aria-pressed="false"><span class="swatches"><i style="background:#fdf6e3;border:1px solid #d8cfb8"></i><i style="background:#859900"></i><i style="background:#268bd2"></i><i style="background:#b58900"></i></span>solarized light <span class="theme-check"></span></button>
+            </div>
+          </div>
+          <div class="note theme-saved" id="theme-saved" aria-live="polite">// theme saved on this device</div>
+        </div>
+
+        <div class="sec" style="margin-top:20px"><span class="aa">Aa</span>text</div>
+        <div class="ind">
+          <div class="note" style="margin-top:3px">// for this device</div>
+          <div class="tg"><span>size</span><span class="opts" data-g><span data-v class="on">[default]</span><span data-v>[larger]</span><span data-v>[largest]</span></span></div>
+          <div class="rr"><span>font</span><span class="v">sf mono <em>&gt;</em></span></div>
+        </div>
+
+        <div class="sec" style="margin-top:19px"><svg class="i" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><path d="M5.200 8.200l2 2 3.600-4"/></svg>completed habits</div>
+        <div class="ind">
+          <div class="note" style="margin-top:3px">// customise display of habits once completed</div>
+          <div class="note" style="margin-top:12px">// preview</div>
+          <div class="prev"><div><span class="ok">[✓]</span> <svg class="i" viewBox="0 0 16 16"><circle cx="10" cy="2.800" r="1.300"/><path d="M9 5l-3 2 1 3-3 3M9 5l3 3M7 10l3 1 1 3M6 7L3 6"/></svg> morning run <span class="g"><svg class="i" viewBox="0 0 16 16"><path d="M8 1c1 3 4 4.500 4 8.500A4 4 0 0 1 4 9.500C4 8 5 7 5.500 6 6.500 7 7 7 7 7 7.500 5 7 3 8 1z" fill="currentColor" stroke="none"/></svg> 3</span></div><div><span class="m">[ ]</span> <svg class="i" viewBox="0 0 16 16"><path d="M2 3.500c2-1 4-1 6 .5 2-1.500 4-1.500 6-.5v9c-2-1-4-1-6 .5-2-1.500-4-1.500-6-.5z M8 4v9"/></svg> read 20 pages</div></div>
+          <div class="tg"><span>move completed to bottom</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div><div class="tg"><span>cross out completed</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div><div class="tg"><span>dim completed</span><span class="opts" data-g><span data-v class="on">[off]</span><span data-v>[on]</span></span></div>
+        </div>
+
+        <div class="sec" style="margin-top:20px"><svg class="i" viewBox="0 0 16 16"><path d="M1 8c1.500-2.500 4-4.500 7-4.500S13.500 5.500 15 8c-1.500 2.500-4 4.500-7 4.500S2.500 10.500 1 8z"/><circle cx="8" cy="8" r="2"/></svg>display</div>
+        <div class="ind">
+          <div class="tg"><span>spacing</span><span class="opts" data-g><span data-v class="on">[compact]</span><span data-v>[cozy]</span><span data-v>[relaxed]</span></span></div>
+          <div class="tg"><span>units</span><span class="opts" data-g><span data-v class="on">[metric]</span><span data-v>[imperial]</span></span></div>
+        </div>
+
+        <div class="sec" style="margin-top:20px"><svg class="i" viewBox="0 0 16 16"><rect x="2" y="3" width="12" height="11" rx="1"/><path d="M2 6.500h12M5 2v2M11 2v2M5 9h1M8 9h1M11 9h1M5 11.500h1M8 11.500h1"/></svg>calendar</div>
+        <div class="ind" style="padding-bottom:14px">
+          <div class="tg"><span>week starts on</span><span class="opts" data-g><span data-v class="on">[monday]</span><span data-v>[sunday]</span></span></div>
+          <div class="tg"><span>clock</span><span class="opts" data-g><span data-v>[12h]</span><span data-v class="on">[24h]</span></span></div>
+        </div>
+      </div>
+    </section>
+    <section class="panel hpnl" id="hpnl" aria-hidden="true"><div class="t">$ help</div><button class="x" id="hpclose" type="button">[close]</button>
+      <div class="scroll">
+        <div class="sub">// what each part of the app does and how to use it</div>
+        <button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><circle cx="8" cy="8" r="6"/><path d="M8 7.200v4M8 4.800v.1"/></svg><span class="g">$ basics</span></span><span class="more">// navigation, the daily status card, and the calendar. click any date to view or edit that day.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><rect x="2.500" y="2.500" width="11" height="11" rx="1.500"/><path d="M5.200 8.200l2 2 3.600-4"/></svg><span class="g">$ habits</span></span><span class="more">// add with + habit (or press a). tick to complete. use count, number or time tracking for habits with a target.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M2 5h12v8H2zM5.500 5V3.200h5V5"/></svg><span class="g">$ routines</span></span><span class="more">// group habits into a routine (+ routine or r) and complete them together, in order.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M8 1c1 3 4 4.500 4 8.500A4 4 0 0 1 4 9.500C4 8 5 7 5.500 6 6.500 7 7 7 7 7 7.500 5 7 3 8 1z"/></svg><span class="g">$ streaks & shields</span></span><span class="more">// a streak grows each day you hit your goal. shields protect it when you miss a day.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><circle cx="8" cy="9" r="5"/><path d="M8 6.500V9l2 1M6.500 1.800h3"/></svg><span class="g">$ timers</span></span><span class="more">// start a timer on a time-tracked habit; it completes the habit when the target is reached.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M8 13.500S2 10 2 6a3 3 0 0 1 6-1 3 3 0 0 1 6 1c0 4-6 7.500-6 7.500z"/></svg><span class="g">$ apple health</span></span><span class="more">// steps, sleep and workouts can complete habits automatically via the ios app.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M4 2h8v3.500a4 4 0 0 1-8 0zM8 9.500V12M5.500 13.500h5"/></svg><span class="g">$ levels & achievements</span></span><span class="more">// earn xp for completing habits, level up, and unlock achievements.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M6 8V3a1 1 0 0 1 2 0v4l3 .5V12l-1 2H7L4.500 10.500 6 9.500z"/></svg><span class="g">$ gestures & shortcuts</span></span><span class="more">// j/k or arrows to move, space to toggle, h for today, 1-5 for menus, ? for help.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M2.500 13.500v-4M6.500 13.500v-8M10.500 13.500v-6M14 13.500v-10"/></svg><span class="g">$ stats & sharing</span></span><span class="more">// overview, month and week views. share a snapshot of your progress as an image.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><rect x="2" y="2" width="5" height="5"/><rect x="9" y="2" width="5" height="5"/><rect x="2" y="9" width="5" height="5"/><rect x="9" y="9" width="5" height="5"/></svg><span class="g">$ widgets</span></span><span class="more">// add home screen widgets on ios to check habits without opening the app.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M4 11V7a4 4 0 0 1 8 0v4l1.500 2h-11zM7 14h2"/></svg><span class="g">$ notifications</span></span><span class="more">// per-habit reminders. browser delivery is set up in system → notifications.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M11.500 1.500l3 3-1.200 1.200-3-3zM9.700 3.300l3 3L6.500 12.500 3 13l.5-3.500z"/></svg><span class="g">$ appearance</span></span><span class="more">// theme, font, text size, spacing, and how completed habits look. system → appearance.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><rect x="3.500" y="7" width="9" height="7" rx="1"/><path d="M5.500 7V5a2.500 2.500 0 0 1 5 0v2"/></svg><span class="g">$ sync, privacy & data</span></span><span class="more">// your data syncs across devices. export or delete it anytime from system → sync & data.</span></button><button type="button" class="hl"><span class="row"><svg class="i" viewBox="0 0 16 16" ><path d="M8 1.500l1.600 1.300 2-.2.800 1.900 1.800 1-.4 2 1 1.700-1.200 1.600.1 2-1.900.8L9.600 15 8 13.900 6.400 15l-1.300-1.600-1.900-.8.100-2L2 9l1-1.700-.4-2 1.800-1 .8-1.900 2 .2z"/><path d="M5.800 8.200l1.600 1.600 2.800-3"/></svg><span class="g">$ pro plan</span></span><span class="more">// unlocks time tracking, unlimited habits and extra themes. profile → pro.</span></button>
+        <div class="ask">// still stuck? <button type="button" id="hpask">[ask a question]</button></div>
+      </div>
+    </section>
+    <section class="panel fpnl" id="fpnl" aria-hidden="true"><div class="t">$ feedback</div><button class="x" id="fbclose" type="button">[close]</button>
+      <div class="scroll">
+        <div class="sec"><svg class="i" viewBox="0 0 16 16" style="fill:currentColor;stroke:none"><path d="M2 2.500h12a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H6.500L3 14.500V11.500H2a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>send feedback</div>
+        <div class="ind">
+          <div class="note">// share bugs, ideas, or anything on your mind</div>
+          <textarea id="fbmsg" maxlength="5000" placeholder="// type your message here..."></textarea>
+          <div class="cnt" id="fbcnt">[0/5000]</div>
+          <input class="em" id="fbem" type="email" placeholder="// your email (optional)">
+          <div class="att"><button type="button" id="fbatt">[+ attach screenshot]</button> // max 3<input type="file" id="fbfile" accept="image/*" multiple hidden></div>
+          <div class="files" id="fbfiles"></div>
+          <button class="submit" id="fbsub" type="button">[submit →]</button>
+          <div class="sent" id="fbsent">// sent. thanks for the feedback!</div>
+        </div>
+
+        <div class="sec" style="margin-top:26px"><svg class="i" viewBox="0 0 16 16" style="fill:currentColor;stroke:none"><path d="M1 3.500h14v1L8 9 1 4.500zM1 6.200l7 4.500 7-4.500V12.500H1z"/></svg>send an email</div>
+        <div class="ind"><a class="lk" href="mailto:hello@example.com" style="margin-top:5px">$ send an email →</a></div>
+
+        <div class="sec" style="margin-top:26px"><svg class="i" viewBox="0 0 16 16" style="fill:currentColor;stroke:none"><path d="M1.500 2.500h8a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H5.500L3 11.500V9.500h-1.500a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1zM11.500 5h3a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H14v2l-2.500-2H8V10h2.500a2 2 0 0 0 1-1.700z"/></svg>join the community</div>
+        <div class="ind">
+          <div class="note" style="margin-top:5px">// share ideas, follow updates, chat with other users</div>
+          <div style="margin-top:8px"><a class="lk" href="#" target="_blank" rel="noopener">$ join <svg viewBox="0 0 16 16"><path d="M13 3.500A11 11 0 0 0 10.300 2.700l-.3.600a9 9 0 0 0-4 0l-.3-.6A11 11 0 0 0 3 3.500C1.300 6 .8 8.500 1 11a11 11 0 0 0 3.300 1.700l.7-1.100a7 7 0 0 1-1.100-.5l.3-.2a7.800 7.800 0 0 0 7.600 0l.3.200c-.4.200-.7.400-1.100.5l.7 1.100A11 11 0 0 0 15 11c.3-2.900-.5-5.400-2-7.500zM5.700 9.600c-.7 0-1.200-.6-1.200-1.400s.5-1.400 1.200-1.400 1.200.6 1.200 1.400-.5 1.400-1.200 1.400zm4.600 0c-.7 0-1.200-.6-1.200-1.400s.5-1.400 1.200-1.400 1.200.6 1.200 1.400-.5 1.400-1.200 1.400z"/></svg>discord →</a><a class="lk" href="#" target="_blank" rel="noopener">$ join <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.500a6.500 6.500 0 1 0 0 13c3 0 5-1.500 5-3.800 0-1.700-1.300-2.800-3.200-2.900V5.600C9.800 4.600 9 4 8 4S6 4.500 5.700 5.500l1 .3c.2-.5.600-.7 1.200-.7.700 0 1 .4 1 1.100-.4-.1-.8-.1-1.200-.1-1.600 0-2.600.8-2.600 2 0 1.100.9 1.900 2.200 1.900 1.700 0 2.600-1 2.700-2.600.9.200 1.300.8 1.300 1.500 0 1.200-1.200 2.600-4 2.600S3 10.300 3 8s1.300-4.500 5-4.500c3 0 4.500 1.300 5 3.500l1-.3C13.400 4.200 11.500 1.500 8 1.500z"/></svg>threads →</a><a class="lk" href="#" target="_blank" rel="noopener">$ join <svg viewBox="0 0 16 16"><path d="M2 2h3.300l3.200 4.400L12.300 2H14L9.300 7.500 14.500 14h-3.300L7.800 9.300 3.800 14H2.100l5-5.800zM4.600 3.200l6.200 9.600h.9L5.500 3.200z"/></svg>x.com →</a><a class="lk" href="#" target="_blank" rel="noopener">$ join <svg viewBox="0 0 16 16"><path d="M3.700 2.600C5.300 3.800 7.100 6.200 8 7.500c.9-1.300 2.700-3.700 4.300-4.900 1.100-.9 2.900-1.500 2.900.6 0 .4-.2 3.500-.4 4-.5 1.800-2.300 2.200-3.900 2 2.800.5 3.500 2 2 3.600-3 3-4.300-.8-4.600-1.700L8 11l-.3.600c-.3.900-1.600 4.700-4.600 1.700-1.500-1.600-.8-3.100 2-3.600-1.600.2-3.400-.2-3.900-2-.2-.5-.4-3.600-.4-4 0-2.100 1.800-1.500 2.900-.6z"/></svg>bluesky →</a><a class="lk" href="#" target="_blank" rel="noopener">$ join <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 1.500h6A3.500 3.500 0 0 1 14.500 5v6a3.500 3.500 0 0 1-3.500 3.500H5A3.500 3.500 0 0 1 1.500 11V5A3.500 3.500 0 0 1 5 1.500zm0 1.300A2.200 2.200 0 0 0 2.800 5v6A2.200 2.200 0 0 0 5 13.200h6a2.200 2.200 0 0 0 2.200-2.200V5A2.200 2.200 0 0 0 11 2.800zM8 4.800a3.200 3.200 0 1 1 0 6.400 3.200 3.200 0 0 1 0-6.400zm0 1.300a1.900 1.900 0 1 0 0 3.800 1.900 1.900 0 0 0 0-3.800zM11.700 3.800a.8.800 0 1 1 0 1.600.8.8 0 0 1 0-1.600z"/></svg>instagram →</a></div>
+        </div>
+      </div>
+    </section>
+    <section class="panel ppnl" id="pacc" aria-hidden="true"><div class="t">$ sync &amp; data</div><button class="x" data-pclose type="button">[close]</button>
+      <div class="scroll">
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.200"/><circle cx="8" cy="6.300" r="2"/><path d="M4.200 12.500c.8-1.800 2.200-2.600 3.800-2.600s3 .8 3.800 2.600"/></svg>account</div>
+        <div class="ind">
+          <div class="kv"><span>signed in:</span><span>krishverma880@gmail.com</span></div>
+          <div class="kv"><span>type:</span><span>google</span></div>
+          <div class="kv"><span>verified:</span><span>yes</span></div>
+          <button class="cmd" type="button" id="so" style="margin-top:17px">$ sign --out</button>
+        </div>
+
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><path d="M13.500 8A5.500 5.500 0 0 0 3.600 5M2.500 8a5.500 5.500 0 0 0 9.900 3M3.600 2.200V5h2.800M12.400 13.800V11h-2.800"/></svg>init.Habits cloud sync</div>
+        <div class="ind">
+          <div class="note">// your habits saved to init.Habits server — private and fast sync</div>
+          <div class="sync"><span><span class="br">└─</span>status:</span><span class="ok" id="syst">up to date</span></div>
+          <button class="cmd" type="button" id="syncb" style="margin-top:17px">$ sync --manually</button>
+          <div class="note">// force re-sync of your data with the cloud</div>
+        </div>
+
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><path d="M8 10V2M5.200 4.800L8 2l2.800 2.800M3 8v5.500h10V8"/></svg>export</div>
+        <div class="ind">
+          <div class="note">// save your data to a file</div>
+          <button class="cmd" type="button" id="exb" style="margin-top:17px">$ export --backup</button>
+          <div class="note">// full backup — every habit, completion, setting, theme</div>
+          <button class="cmd" type="button" id="exc" style="margin-top:17px">$ export --csv</button>
+          <div class="note">// completions only — open in excel, numbers, sheets</div>
+        </div>
+
+        <div class="sec"><svg class="i" viewBox="0 0 16 16"><path d="M8 2v8M5.200 7.200L8 10l2.800-2.800M3 8v5.500h10V8"/></svg>import</div>
+        <div class="ind">
+          <div class="note">// restore from a backup file</div>
+          <button class="cmd" type="button" id="imb" style="margin-top:17px">$ import --backup</button>
+          <div class="note">// replaces every habit, completion, setting — and your cloud backup</div>
+          <input type="file" id="imf" accept=".json,application/json" hidden>
+          <div class="msg" id="pmsg"></div>
+        </div>
+
+        <div class="sec" style="margin-top:14px"><svg class="i" viewBox="0 0 16 16"><path d="M8 2L14.500 13.500h-13zM8 6.500v3.500M8 11.700v.1"/></svg>danger zone</div>
+        <div class="ind" style="padding-bottom:14px">
+          <button class="cmd red" type="button" id="del">$ delete --account</button>
+          <div class="note">// permanently delete your account and all its data</div>
+        </div>
+      </div>
+    </section>
+    <section class="panel ppnl" id="plv" aria-hidden="true"><div class="t">$ levels</div><button class="x" data-pclose type="button">[close]</button>
+      <div class="scroll">
+        <div class="sec"><svg class="i" viewBox="0 0 16 16" style="fill:currentColor;stroke:none"><path d="M2 9h3v5H2zM6.500 5h3v9h-3zM11 2h3v12h-3z"/></svg>level 1</div>
+        <div class="ind">
+          <div class="xpbar">[<span class="tr"><i style="width:33.33%"></i></span>]  10/30 xp</div>
+          <div class="note" style="margin-top:14px">badge: --</div>
+        </div>
+
+        <div class="sec" style="margin-top:21px"><svg class="i" viewBox="0 0 16 16" style="fill:currentColor;stroke:none"><path d="M8 1l6 2v5c0 3.500-2.500 5.500-6 7-3.500-1.500-6-3.500-6-7V3z"/></svg>badge</div>
+        <div class="ind">
+          <div class="bdg">[<i></i><u></u><i></i><u></u><i></i><u></u><i></i><u></u><i></i>]</div>
+          <div class="note" style="margin-top:14px;color:var(--text)">-- → bronze <span class="mu" style="color:var(--muted)">+4 levels</span></div>
+        </div>
+
+        <div class="sec" style="margin-top:21px"><svg class="i" viewBox="0 0 16 16" style="fill:currentColor;stroke:none"><path d="M3 7h8a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1zM5 7V4.500a2.500 2.500 0 0 1 4.800-1l-1.300.5A1.200 1.200 0 0 0 6.300 4.500V7z"/></svg>unlock roadmap</div>
+        <div class="ind" style="margin-top:6px">
+          <div class="rm"><b>3</b><span class="o"></span><span>symbol: ></span></div><div class="rm"><b>4</b><span class="o"></span><span>symbol: %</span></div><div class="rm"><b>5</b><span class="o"></span><span>symbol: → <span class="mu">|</span> badge: [bronze]</span></div><div class="rm"><b>6</b><span class="o"></span><span>symbol: ::</span></div><div class="rm"><b>7</b><span class="o"></span><span>symbol: ›</span></div><div class="rm"><b>8</b><span class="o"></span><span>symbol: λ</span></div><div class="rm"><b>9</b><span class="o"></span><span>symbol: ⊢</span></div><div class="rm"><b>10</b><span class="o"></span><span>symbol: ∴ <span class="mu">|</span> badge: [silver]</span></div><div class="rm"><b>11</b><span class="o"></span><span>symbol: #</span></div><div class="rm"><b>12</b><span class="o"></span><span>symbol: )</span></div><div class="rm"><b>13</b><span class="o"></span><span>symbol: §</span></div><div class="rm"><b>14</b><span class="o"></span><span>symbol: ~></span></div><div class="rm"><b>15</b><span class="o"></span><span>symbol: ⊕ <span class="mu">|</span> badge: [gold]</span></div><div class="rm"><b>16</b><span class="o"></span><span>symbol: ∞</span></div><div class="rm"><b>25</b><span class="o"></span><span>badge: [platinum]</span></div><div class="rm"><b>30</b><span class="o"></span><span>badge: [diamond]</span></div>
+          <div class="note" style="margin-top:0">// earn xp: +1 habit ∗ +3 routine ∗ +8 green day</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="keys" id="keys-main">
+  <span><kbd>↓ / j</kbd> enter keyboard control</span>
+  <span><kbd>tab / l</kbd> right pane</span>
+  <span><kbd>←→</kbd> day</span>
+  <span><kbd>1–5</kbd> menu</span>
+  <span><kbd>a</kbd> add habit</span>
+  <span><kbd>r</kbd> add routine</span>
+  <span><kbd>?</kbd> help</span>
+</div>
+<div class="keys" id="keys-app" style="display:none">
+  <span><kbd>↑↓</kbd> setting</span>
+  <span><kbd>←→ / space</kbd> change</span>
+  <span><kbd>⏎</kbd> select</span>
+  <span><kbd>h</kbd> today</span>
+  <span><kbd>esc</kbd> back</span>
+</div>
+<div class="keys" id="keys-new" style="display:none">
+  <span><kbd>tab</kbd> next field</span>
+  <span><kbd>⏎</kbd> save</span>
+  <span><kbd>esc</kbd> cancel</span>
+</div>
+<script src="src/js/dashboard.js" defer></script>
+<script src="src/js/features/habit-create.js" defer></script>
+<script src="src/js/features/navigation.js" defer></script>
+<script src="src/js/features/appearance.js" defer></script>
+<script src="src/js/features/help-feedback.js" defer></script>
+<script src="src/js/features/profile.js" defer></script>
+</body>
+</html>
