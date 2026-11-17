@@ -36,7 +36,7 @@
 
 
 ## Theme system
-- The six supported themes are `github-dark`, `ansi-dark`, `nord`, `material-dark`, `light-basic`, and `solarized-light`.
+- The eight supported themes are `github-dark`, `ansi-dark`, `nord`, `gruvbox-dark`, `material-dark`, `catppuccin-mocha`, `light-basic`, and `solarized-light`. Gruvbox Dark is based on a full-dashboard reference; Catppuccin Mocha is an estimated reconstruction from its preview palette.
 - Theme palettes are CSS custom-property overrides on `:root[data-theme]` in `src/css/styles.css`. Components should consume semantic variables rather than hardcoded surface/text colours.
 - Theme selection and persistence (`localStorage` key `initHabitsTheme`) live in `src/js/features/appearance.js`.
 - Keep habit/category identity colours separate from the selected theme's general accent palette.
