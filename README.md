@@ -51,3 +51,7 @@ The Appearance panel shows the current theme on a single `$ themes` row; clickin
 
 ## Stats menu panels
 `stats → overview` opens `$ stats --overview` (lifetime overview, streaks, data window presets, completion rates, day of week, habit highlights, activity, past-year contributions, xp & level, top habits). `stats → month` / `stats → week` open the month and week panels. All three live in `src/js/features/stats-panels.js` and are driven by sample data until persistence exists (see TODOs; `[more]` / `[custom]` window presets are placeholders).
+
+
+## Profile menu panels
+`profile → account` / `levels` live in `profile.js`. `profile → pro` opens `$ pro` (pro features, pricing cards) and `profile → achievements` opens `$ achievements` (tiers with `░░░░│░░░░│…` progress bars, milestones, and hidden challenges masked with the `▓█░▒▓▒█░▓▒` glyph pattern). Both are in `src/js/features/profile-panels.js`, use sample data, and checkout / redeem / legal links are placeholders (TODO).
