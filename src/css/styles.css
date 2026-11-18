@@ -355,6 +355,40 @@
   .stpnl .sc+.kv{margin-top:1px}
   .stpnl .ftn{color:var(--comment);font-size:11px;line-height:14px;margin-top:14px}
 
+  /* stats --overview */
+  .stpnl .sech.sec3{margin-top:10px}
+  .stpnl .sech .wn{font-weight:400;color:var(--text)}
+  .stpnl .sech span{display:inline}
+  .stpnl .wins{display:flex;gap:9px;padding-left:21px;margin-top:5px;line-height:14px;font-size:11px}
+  .stpnl .wins button{background:none;border:0;padding:0;font:inherit;color:var(--text);cursor:pointer}
+  .stpnl .wins button:hover{color:var(--green)}
+  .stpnl .wins button.on{color:var(--green);font-weight:700}
+  .stpnl .dwr{display:grid;grid-template-columns:19px 138px auto;align-items:center;height:14.5px;padding-left:16px;font-size:11px;color:var(--text)}
+  .stpnl .dwr span:last-child{padding-left:7px}
+  .stpnl .dwr span:first-child{color:var(--text)}
+  .stpnl .tr{position:relative;display:block;height:11px;background:repeating-conic-gradient(var(--border-strong) 0 25%,transparent 0 50%) 0 0/2px 2px}
+  .stpnl .tr i{position:absolute;left:0;top:0;bottom:0;background:var(--green)}
+  .stpnl .kv svg.i{width:11px;height:11px;margin-right:2px;vertical-align:-1px}
+  .stpnl .kv em svg.i{margin-right:1px}
+  .stpnl .tp{display:flex;justify-content:space-between;padding:0 10px 0 16px;font-size:11px;line-height:14.5px;color:var(--muted)}
+  .stpnl .tp em{font-style:normal}
+  .stpnl .tp svg.i{width:11px;height:11px;margin-right:1px;vertical-align:-1px}
+  .stpnl .tp span:last-child{color:var(--green)}
+  #sopnl .stb{padding-bottom:22px}
+  .stpnl .xb{display:flex;align-items:center;gap:0;padding-left:16px;height:14.5px;white-space:pre;font-size:11px;color:var(--muted)}
+  .stpnl .xb .tr{width:150px;margin:0 6px 0 2px}
+  .stpnl .heat{padding-left:16px;margin-top:8px;gap:4px}
+  .stpnl .heat .dl{margin-top:14px;margin-right:0}
+  .stpnl .hsc{flex:1;min-width:0;overflow-x:auto;scrollbar-color:auto}   /* scrollbar-color is inherited from .scroll and would disable the styled bar below */
+  .stpnl .hsc::-webkit-scrollbar{height:14px}
+  .stpnl .hsc::-webkit-scrollbar-track{background:transparent}
+  .stpnl .hsc::-webkit-scrollbar-thumb{background:var(--border-strong);border:0 solid transparent;border-top-width:8px;border-radius:3px;background-clip:padding-box}
+  .stpnl .hsc .mo{position:relative;height:14px;color:var(--muted)}
+  .stpnl .hsc .mo span{position:absolute;top:0}
+  .stpnl .hsc .cells i.h1{background:var(--heat-1)} .stpnl .hsc .cells i.h2{background:var(--heat-2)} .stpnl .hsc .cells i.h3{background:var(--heat-3)}
+  .stpnl .hsc .cells i.h4{background:var(--heat-4)} .stpnl .hsc .cells i.h5{background:var(--heat-5)}
+  .stpnl .leg{margin:10px 0 20px 16px}   /* collapses with the next section's 10px top margin */
+
   /* habit archive panel */
   .arpnl .sub,.arpnl .arl{padding-left:18px;margin-bottom:0}
   .arpnl .sub{margin-bottom:25px}

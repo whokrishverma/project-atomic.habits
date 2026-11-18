@@ -47,3 +47,7 @@ The Appearance panel shows the current theme on a single `$ themes` row; clickin
 
 ## Habits menu panels
 `habits → all habits` opens the `$ overview` panel (`habits-overview.js`) and `habits → library` opens `$ habits library` (`habits-library.js`) in the right column. Library `[add]` pre-fills the `$ habit --new` panel; routine packs and the `$ habit --archive` command are placeholders (TODO). Overview habits and library entries are static sample data until persistence exists.
+
+
+## Stats menu panels
+`stats → overview` opens `$ stats --overview` (lifetime overview, streaks, data window presets, completion rates, day of week, habit highlights, activity, past-year contributions, xp & level, top habits). `stats → month` / `stats → week` open the month and week panels. All three live in `src/js/features/stats-panels.js` and are driven by sample data until persistence exists (see TODOs; `[more]` / `[custom]` window presets are placeholders).
